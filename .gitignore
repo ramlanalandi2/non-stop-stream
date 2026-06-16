@@ -1,0 +1,14 @@
+node_modules/
+vendor/
+.env
+*.apk
+*.aab
+*.mp4
+*.log
+.venv/
+build/
+dist/
+.dart_tool/
+.gradle/
+.local-chrome/
+ViralEngine/

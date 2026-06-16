@@ -1,0 +1,27 @@
+{
+    "video_dir": "assets/videos",
+    "audio_path": "assets/audio/music.mp3",
+    "output_path": "output/final_loop.mp4",
+    "overlays": [
+        {
+            "text": "🔥 PROMO HARI INI: DISKON 50% 🔥",
+            "fontsize": 48,
+            "fontcolor": "white",
+            "box": 1,
+            "boxcolor": "black@0.5",
+            "y": "h-120"
+        },
+        {
+            "text": "👉 KLIK LINK DI BIO UNTUK ORDER 👈",
+            "fontsize": 36,
+            "fontcolor": "yellow",
+            "y": "h-60"
+        }
+    ],
+    "ffmpeg_options": {
+        "vcodec": "libx264",
+        "acodec": "aac",
+        "preset": "veryfast",
+        "bitrate": "3000k"
+    }
+}
